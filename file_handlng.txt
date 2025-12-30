@@ -1,0 +1,11 @@
+File handling in Python is the process of creating, opening, reading, writing, and closing files 
+so that data can be stored permanently outside a program’s runtime.
+ Python provides a built-in open() function to work with files, w
+ here you specify the file name and the mode such as read ('r'),
+  write ('w'), append ('a'), or read-write ('r+'). Once a file is opened,
+methods like read(), readline(), readlines(), and write()
+are used to interact with its contents. It is important to close the file
+using close() to free system resources, although the recommended and safer approach is
+to use the with statement, which automatically handles closing the file even if an error occurs.
+File handling is widely used for tasks such as logging, data storage, configuration management, and processing 
+large datasets efficiently.this is the new line in the file and this is the last line in the filethis is the new line in the file and this is the last line in the filethis is the new line in the file and this is the last line in the file
